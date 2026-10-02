@@ -1,9 +1,157 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>En Muan Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>En Muan — Portfolio</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Portfolio coming soon</h1>
+
+<header>
+  <div class="header-inner">
+    <a class="site-name" href="index.html">En Muan</a>
+    <nav>
+      <ul>
+        <li><a href="#games">Games</a></li>
+        <li><a href="#3d-art">3D Art</a></li>
+        <li><a href="#audio">Audio</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <h1>Game designer, 3D artist, and audio producer.</h1>
+    <p>I build playable systems, model and animate characters, and design sound for games. Browse the work below, or scroll to learn more about how I work.</p>
+  </div>
+</section>
+
+<section class="category" id="games">
+  <div class="wrap">
+    <div class="category-heading">
+      <h2>Games</h2>
+      <span class="count">3 projects</span>
+    </div>
+    <div class="grid">
+
+      <a class="tile" href="projects/echo-in-time.html">
+        <div class="tile-thumb">Screenshot — Echo in Time</div>
+        <div class="tile-body">
+          <h3>Echo in Time</h3>
+          <p>2D platformer with time-manipulation mechanics</p>
+        </div>
+      </a>
+
+      <a class="tile" href="projects/pilgrim-quest.html">
+        <div class="tile-thumb">Screenshot — Pilgrim Quest</div>
+        <div class="tile-body">
+          <h3>Pilgrim Quest</h3>
+          <p>2D top-down adventure game</p>
+        </div>
+      </a>
+
+      <a class="tile" href="projects/synthesis-project.html">
+        <div class="tile-thumb">Screenshot — Synthesis Project</div>
+        <div class="tile-body">
+          <h3>Synthesis Project</h3>
+          <p>Unity system integration showcase</p>
+        </div>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<section class="category" id="3d-art">
+  <div class="wrap">
+    <div class="category-heading">
+      <h2>3D Art</h2>
+      <span class="count">2 projects</span>
+    </div>
+    <div class="grid">
+
+      <a class="tile" href="projects/rex-3d-model.html">
+        <div class="tile-thumb">Render — Rex</div>
+        <div class="tile-body">
+          <h3>Rex — 3D Model</h3>
+          <p>Character model and animation pipeline</p>
+        </div>
+      </a>
+
+      <a class="tile" href="projects/commander-cosmo.html">
+        <div class="tile-thumb">Render — Commander Cosmo</div>
+        <div class="tile-body">
+          <h3>Commander Cosmo — 3D Model</h3>
+          <p>Character model</p>
+        </div>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<section class="category" id="audio">
+  <div class="wrap">
+    <div class="category-heading">
+      <h2>Audio</h2>
+      <span class="count">2 projects</span>
+    </div>
+    <div class="grid">
+
+      <a class="tile" href="projects/celeste-audio.html">
+        <div class="tile-thumb">Player — Celeste Remake</div>
+        <div class="tile-body">
+          <h3>Celeste — Audio Remake &amp; VA</h3>
+          <p>Audio remake with voice acting</p>
+        </div>
+      </a>
+
+      <a class="tile" href="projects/metropolis-audio.html">
+        <div class="tile-thumb">Player — Metropolis Remake</div>
+        <div class="tile-body">
+          <h3>Metropolis — Audio Remake</h3>
+          <p>Audio remake</p>
+        </div>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<section class="category" id="about">
+  <div class="wrap">
+    <div class="category-heading">
+      <h2>About</h2>
+    </div>
+    <p style="max-width: 60ch; color: var(--text-muted);">
+      I'm a Computer Game Design student at George Mason University, working across gameplay
+      programming, 3D modeling and animation, and audio production. [Replace this paragraph
+      with a short bio — background, focus areas, and what kind of role you're looking for.]
+    </p>
+    <p style="margin-top: 16px;">
+      <a href="resume.pdf" style="border: 1px solid var(--border); padding: 10px 18px; display: inline-block;">
+        Download Resume
+      </a>
+    </p>
+  </div>
+</section>
+
+<footer id="contact">
+  <div class="wrap">
+    <h2>Contact</h2>
+    <p>The best way to reach me is through the links below.</p>
+    <div class="contact-links">
+      <a href="#">LinkedIn</a>
+      <a href="#">GitHub</a>
+      <a href="#">Email</a>
+    </div>
+  </div>
+</footer>
+
 </body>
 </html>
