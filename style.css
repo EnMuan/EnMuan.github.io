@@ -188,6 +188,12 @@ section.category:last-of-type {
   font-size: 0.9rem;
 }
 
+.media-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
 /* ---------- Footer / contact ---------- */
 
 footer {
