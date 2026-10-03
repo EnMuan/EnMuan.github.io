@@ -270,6 +270,7 @@ footer p {
 .detail-body {
   padding: 48px 0;
   max-width: 68ch;
+  margin: 0 auto; 
 }
 
 .detail-body h2 {
