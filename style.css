@@ -329,6 +329,10 @@ footer p {
   padding: 0;
 }
 
+.hero-slider::-webkit-scrollbar {
+  display: none;
+}
+
 .hero-slide {
   flex: 0 0 100%;
   scroll-snap-align: start;
