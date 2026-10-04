@@ -163,5 +163,16 @@
   </div>
 </footer>
 
+  <script>
+  const slider = document.getElementById('hero-slider');
+  document.querySelectorAll('[data-slide]').forEach(function (el) {
+    el.addEventListener('click', function (e) {
+      e.preventDefault();
+      slider.scrollTo({ left: slider.clientWidth * Number(el.dataset.slide), behavior: 'smooth' });
+      if (el.closest('nav')) window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  });
+</script>
+
 </body>
 </html>
