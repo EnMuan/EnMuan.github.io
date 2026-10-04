@@ -117,10 +117,6 @@ nav a:focus-visible {
 
 /* ---------- Sections ---------- */
 
-section.category {
-  padding: 72px 0;
-  border-bottom: 1px solid var(--border);
-}
 
 section.category:last-of-type {
   border-bottom: none;
