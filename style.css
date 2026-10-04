@@ -353,3 +353,22 @@ footer p {
   border-color: var(--accent);
   color: var(--accent);
 }
+
+.hero-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.hero-row > .hero-button {
+  margin: 8px 0 0;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+@media (max-width: 640px) {
+  .hero-row {
+    flex-direction: column;
+    gap: 16px;
+  }
+}
