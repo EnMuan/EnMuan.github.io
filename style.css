@@ -325,7 +325,7 @@ footer p {
   display: flex;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
-  scrollbar-width: thin;
+  scrollbar-width: none;
   padding: 0;
 }
 
