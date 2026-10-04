@@ -34,14 +34,16 @@
 
 <section class="detail-media">
   <div class="wrap">
-    <div class="media-placeholder">Gameplay video / GIF goes here</div>
+    <div class="media-placeholder" style="aspect-ratio:16/9; border:none;">
+  <iframe src="https://www.youtube.com/embed/LWgNyy9UrcI" title="Echo in Time gameplay" style="width:100%; height:100%; border:0;" allowfullscreen></iframe>
+</div>
   </div>
 </section>
 
 <section class="detail-body">
   <div class="wrap">
     <h2>About this project</h2>
-    <p>A 2D platformer built on Unity's 2D Platformer Microgame template, centered on a time-manipulation mechanic that lets the player rewind or echo past actions to solve platforming challenges. [Replace with your own 2-3 sentence write-up: what the mechanic does, what you built on top of the template, and what you're proudest of.]</p>
+    <p>A 2D platformer built in Unity from the 2D Platformer Microgame template, with time manipulation as the core mechanic. I wrote two abilities that share one energy bar: Time Stop, which slows the world to 30% speed while the player moves normally, and Player Slow, which slows the player's own movement and fall speed while held. Collecting tokens restores energy, so players have to manage when to use each ability. I also built the main menu, an in-game menu with rebindable keybinds, and a victory zone at the end of the level. Making the player ignore the global time scale meant reworking the template's physics code to use unscaled time.</p>
   </div>
 </section>
 
