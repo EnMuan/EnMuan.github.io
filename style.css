@@ -318,3 +318,38 @@ footer p {
     scroll-behavior: auto;
   }
 }
+
+/* slider */
+
+.hero-slider {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: thin;
+  padding: 0;
+}
+
+.hero-slide {
+  flex: 0 0 100%;
+  scroll-snap-align: start;
+  padding: 96px 0 64px;
+}
+
+.hero-button {
+  display: inline-block;
+  margin-top: 28px;
+  margin-right: 12px;
+  padding: 10px 18px;
+  border: 1px solid var(--border);
+  background: none;
+  color: var(--text);
+  font: inherit;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus-visible {
+  border-color: var(--accent);
+  color: var(--accent);
+}
